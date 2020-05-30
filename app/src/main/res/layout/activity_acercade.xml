@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registro"
+    tools:context=".Acercade">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="334dp"
+        android:layout_height="191dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/wherelogo_foreground" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="341dp"
+        android:layout_height="197dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="El objetivo de esta aplicación es conocer la ubicación actual de una persona que padece de Alzheimer, y tiene un dispositivo creado y vinculado con anterioridad. Dicha ubicación es tomada de un API donde se almacenan también los usuarios y contraseñas."
+        android:textAlignment="center"
+        android:textColor="#141414"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <Button
+        android:id="@+id/btnAcercade"
+        android:layout_width="135dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="112dp"
+        android:backgroundTint="#141414"
+        android:fontFamily="casual"
+        android:text="Regresar"
+        android:textColor="#f4f4f4"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

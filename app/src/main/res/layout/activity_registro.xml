@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registro"
+    tools:context=".registro">
+
+    <EditText
+        android:id="@+id/password2"
+        android:layout_width="278dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="Confirme Password"
+        android:inputType="textPassword"
+        android:textColor="#141414"
+        android:textColorHint="#141414"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.323"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordTxt" />
+
+    <EditText
+        android:id="@+id/telefono"
+        android:layout_width="278dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="Teléfono"
+        android:inputType="textPersonName"
+        android:textColor="#141414"
+        android:textColorHint="#141414"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.315"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <EditText
+        android:id="@+id/emailTxt"
+        android:layout_width="278dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textColor="#141414"
+        android:textColorHint="#141414"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.315"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/telefono" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="327dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="Nombre Completo"
+        android:inputType="textPersonName"
+        android:textColor="#141414"
+        android:textColorHint="#141414"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="56dp"
+        android:background="#F4F4F4"
+        android:fontFamily="casual"
+        android:text="REGISTRATE"
+        android:textAlignment="center"
+        android:textColor="#141414"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/passwordTxt"
+        android:layout_width="278dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#141414"
+        android:textColorHint="#141414"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.323"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailTxt" />
+
+    <Button
+        android:id="@+id/btnUnirse"
+        android:layout_width="166dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="112dp"
+        android:backgroundTint="#141414"
+        android:fontFamily="casual"
+        android:text="Unirse"
+        android:textColor="#F4F4F4"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
